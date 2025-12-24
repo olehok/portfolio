@@ -16,7 +16,7 @@ const router = createBrowserRouter([
       { path: "*", element: <h2>Not Found</h2> },
     ],
   },
-]);
+], { basename: '/portfolio/' });
 
 export default function App() {
   return (
