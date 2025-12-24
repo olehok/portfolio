@@ -4,8 +4,8 @@ export default function Projects() {
   const projects = [
     {
       name: "Portfolio Website",
-      linkPage: "#",
-      linkGit: "#",
+      linkPage: "https://olehok.github.io/portfolio/",
+      linkGit: "https://github.com/olehok/portfolio",
       image: "/portfolio/port.jpg",
       description:
         "This very website you are visiting right now. Built with React and SCSS.",
