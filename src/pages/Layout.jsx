@@ -16,11 +16,11 @@ export default function Layout() {
       <header>
         <div className="container">
           <h1>
-            <NavLink to="/">Oleh Kovalenko</NavLink>
+            <NavLink to="/">OK Portfolio</NavLink>
           </h1>
-          <p className="text"
+          {/* <p className="text"
           style={{ textAlign: "center" }}
-          >Frontend developer</p>
+          >Frontend developer</p> */}
           <nav>
             <h3><NavLink to="/about">About</NavLink></h3>
             <h3><NavLink to="/projects">Projects</NavLink></h3>
