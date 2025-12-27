@@ -22,17 +22,25 @@ export default function Layout() {
           style={{ textAlign: "center" }}
           >Frontend developer</p> */}
           <nav>
-            <h3><NavLink to="/about">About</NavLink></h3>
-            <h3><NavLink to="/projects">Projects</NavLink></h3>
+            <h3>
+              <NavLink to="/about">About</NavLink>
+            </h3>
+            <h3>
+              <NavLink to="/projects">Projects</NavLink>
+            </h3>
             <ThemeToggle />
           </nav>
+          <div className="separator"></div>
         </div>
       </header>
       <main>
         <Outlet />
       </main>
       <footer>
-        
+        <div className="container">
+          <div className="separator"></div>
+          <p className="text">Contacts</p>
+        </div>
       </footer>
     </div>
   );
