@@ -14,7 +14,7 @@ const ProjectItem = ({ name, linkPage, linkGit, image, description }) => {
       <a href={linkGit} target="_blank" rel="noopener noreferrer">
         Github
       </a>
-      <p>{description}</p>
+      <p className="text">{description}</p>
     </li>
   );
 };

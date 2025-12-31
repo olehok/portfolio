@@ -13,15 +13,19 @@ export default function Layout() {
         color: theme === "light" ? `#000000` : `#ffffff`,
       }}
     >
-      <header>
+      <header className="header">
         <div className="container">
           <h1>
-            <NavLink to="/">OK Portfolio</NavLink>
+            <NavLink to="/">Junior Frontend Developer</NavLink>
           </h1>
-          {/* <p className="text"
-          style={{ textAlign: "center" }}
-          >Frontend developer</p> */}
-          <nav>
+          <div className="wrapper">
+            <p className="text">
+              Building responsive interfaces with HTML, CSS, Sass, React, and
+              Redux.
+            </p>
+          </div>
+          <div className="separator"></div>
+          <nav className="nav">
             <h3>
               <NavLink to="/about">About</NavLink>
             </h3>
@@ -33,13 +37,21 @@ export default function Layout() {
           <div className="separator"></div>
         </div>
       </header>
-      <main>
+      <main className="main">
         <Outlet />
       </main>
-      <footer>
+      <footer className="footer">
         <div className="container">
           <div className="separator"></div>
-          <p className="text">Contacts</p>
+          <h3>Contacts</h3>
+          <div className="footer-container">
+            <p className="text">Email: ok.olegkovalenko@gmail.com</p>
+            <p className="text">|</p>
+            <p className="text">Linkedin</p>
+            <p className="text">|</p>
+            <p className="text">Github</p>
+          </div>
+          <p className="text">© 2025 Oleh Kovalenko</p>
         </div>
       </footer>
     </div>
