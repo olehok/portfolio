@@ -47,7 +47,13 @@ export default function Layout() {
           <div className="footer-container">
             <p className="text">Email: ok.olegkovalenko@gmail.com</p>
             <p className="text">|</p>
-            <a href="https://www.linkedin.com/in/olehok" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            <a
+              href="https://www.linkedin.com/in/olehkvln/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Linkedin
+            </a>
             <p className="text">|</p>
             <a
               href="https://github.com/olehok"

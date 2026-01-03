@@ -1,4 +1,4 @@
-import ProjectItem from '../components/ProjectItem';
+import ProjectItem from "../components/ProjectItem";
 
 export default function Projects() {
   const projects = [
@@ -7,8 +7,8 @@ export default function Projects() {
       linkPage: "https://olehok.github.io/portfolio/",
       linkGit: "https://github.com/olehok/portfolio",
       image: "/portfolio/port.jpg",
-      description:
-        "This very website you are visiting right now. Built with React and SCSS.",
+      description: `The portfolio website you are currently viewing, 
+        built with React and Sass featuring client-side routing and a theme switcher.`,
     },
     {
       name: "Hlegal Pages",
@@ -16,50 +16,54 @@ export default function Projects() {
       linkGit: "https://github.com/olehok/hlegal-pages/",
       image: "/portfolio/hlegal.jpg",
       description:
-        "A responsive website on several pages. Built with HTML, SCSS on a pre-designed mockup.",
+        "A responsive multi-page website built with HTML and Sass, based on a pre-designed mockup.",
     },
     {
       name: "Weather Widget",
       linkPage: "https://olehok.github.io/weather-widget/",
       linkGit: "https://github.com/olehok/weather-widget",
       image: "/portfolio/weather.jpg",
-      description:
-        "Weather widget with changing background depending on temperature. Built with JS (localStorage, JSON, fetch, scheduling a call).",
+      description: `A weather widget with a dynamic background based on temperature. 
+        Built with JavaScript, using Fetch API, localStorage for persistence, and scheduled data updates.`,
     },
     {
       name: "Todo List",
       linkPage: "https://olehok.github.io/todo-list/",
       linkGit: "https://github.com/olehok/todo-list",
       image: "/portfolio/todo.jpg",
-      description: "A simple todo-list built with JS (localStorage, JSON).",
+      description:
+        "A simple todo-list built with JavaScript, using localStorage.",
     },
     {
       name: "Slider",
       linkPage: "https://olehok.github.io/column-slider/",
       linkGit: "https://github.com/olehok/column-slider",
       image: "/portfolio/slider.jpg",
-      description: "A simple slider built with JS.",
+      description: "A simple slider built with JavaScript.",
     },
     {
       name: "Crypto page",
       linkPage: "https://olehok.github.io/crypto/",
       linkGit: "https://github.com/olehok/crypto",
       image: "/portfolio/cripto.jpg",
-      description: "A landing page built with HTML, CSS.",
+      description:
+        "A landing page built with HTML and CSS following a pre-designed layout.",
     },
     {
       name: "Furniture page",
       linkPage: "https://olehok.github.io/furniture/",
       linkGit: "https://github.com/olehok/furniture",
       image: "/portfolio/furn.jpg",
-      description: "A landing page built with HTML, CSS (Grid).",
+      description:
+        "A landing page built with HTML and CSS Grid, based on a pre-designed layout.",
     },
     {
       name: "Britlex page",
       linkPage: "https://olehok.github.io/britlex/",
       linkGit: "https://github.com/olehok/britlex",
       image: "/portfolio/britlex.jpg",
-      description: "A landing page built with HTML, SCSS.",
+      description:
+        "A landing page built with HTML and Sass (modules), using CSS Grid, following a pre-designed layout.",
     },
   ];
 
