@@ -16,7 +16,7 @@ export default function Projects() {
       linkGit: "https://github.com/olehok/hlegal-pages/",
       image: "/portfolio/hlegal.jpg",
       description:
-        "A responsive multi-page website built with HTML and Sass, based on a given mockup.",
+        "A responsive multi-page website built with HTML and Sass, based on a given layout.",
     },
     {
       name: "Weather Widget",
@@ -47,7 +47,7 @@ export default function Projects() {
       linkGit: "https://github.com/olehok/crypto",
       image: "/portfolio/cripto.jpg",
       description:
-        "A landing page built with HTML and CSS following a pre-designed layout.",
+        "A landing page built with HTML and CSS following a pre-made layout.",
     },
     {
       name: "Furniture page",
