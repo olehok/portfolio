@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently \"vite\" \"node server/server.js\"",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.1.2",
+    "concurrently": "^9.2.1",
     "gh-pages": "^6.3.0",
     "sass-embedded": "^1.97.1",
     "vite": "^7.2.4"
