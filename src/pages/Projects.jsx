@@ -3,6 +3,13 @@ import ProjectItem from "../components/ProjectItem";
 export default function Projects() {
   const projects = [
     {
+      name: "Booking App",
+      linkPage: "https://olehok.github.io/booking/",
+      linkGit: "https://github.com/olehok/booking/",
+      image: "/portfolio/booking.jpg",
+      description: `Hotel search and booking UI aimed at showcasing a full booking flow (search, filters, pagination, private routing and localized UI) on top of a small Express API with given database. Built with React 19 + Vite, Redux Toolkit, React Router, Ant Design, Formik/Yup, i18next, Axios, Dayjs, and Sass.`,
+    },
+    {
       name: "Portfolio Website",
       linkPage: "https://olehok.github.io/portfolio/",
       linkGit: "https://github.com/olehok/portfolio",

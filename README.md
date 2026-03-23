@@ -8,7 +8,6 @@ with a focus on React-based user interfaces.
 - CSS / Sass
 - JavaScript
 - React
-- Redux
 
 ## How to run locally
 ```bash
