@@ -16,7 +16,14 @@ export default function Layout() {
       <header className="header">
         <div className="container">
           <h1>
-            <NavLink to="/">Junior Frontend Developer</NavLink>
+            <NavLink
+              style={{
+                color: theme === "light" ? `#080808` : `#f5f5f5`,
+              }}
+              to="/"
+            >
+              Junior Frontend Developer
+            </NavLink>
           </h1>
           <div className="wrapper">
             <p className="text">
