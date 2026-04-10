@@ -3,17 +3,22 @@ const ProjectItem = ({ name, linkPage, linkGit, image, description }) => {
     <li>
       {image && (
         <div className="image-container">
-          <img src={image} alt={name} />
+          <a href={linkPage} target="_blank" rel="noopener noreferrer">
+            <img src={image} alt={name} />
+          </a>
         </div>
       )}
-      <h3>
+      <h3>{name}</h3>
+      <p>
         <a href={linkPage} target="_blank" rel="noopener noreferrer">
-          {name}
+          Live Demo
         </a>
-      </h3>
-      <a href={linkGit} target="_blank" rel="noopener noreferrer">
-        Github
-      </a>
+      </p>
+      <p>
+        <a href={linkGit} target="_blank" rel="noopener noreferrer">
+          Github
+        </a>
+      </p>
       <p className="text">{description}</p>
     </li>
   );

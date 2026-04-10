@@ -11,7 +11,7 @@ a {
   display: inline-block;
   margin-bottom: 0.5rem;
   text-decoration: none;
-  color: inherit;
+  color: $purp;
   font-weight: 700;
 }
 
@@ -26,6 +26,9 @@ a:active {
 h1 {
   font-size: 2.1rem;
   text-align: center;
+  & a {
+    color: $black;
+  }
 }
 
 h2 {
@@ -57,9 +60,9 @@ h3 {
   border: none;
   border-radius: 50%;
   cursor: pointer;
-    width: 1.3rem;
-    height: 1.3rem;
-    translate: 0 15%;
+  width: 1.3rem;
+  height: 1.3rem;
+  translate: 0 15%;
 }
 
 .button:hover {
@@ -96,6 +99,10 @@ h3 {
   overflow: hidden;
   border-radius: 8px;
   margin-bottom: 1rem;
+  & a {
+    display: block;
+    margin-bottom: 0;
+  }
   & img {
     width: 100%;
     height: auto;
